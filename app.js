@@ -13,6 +13,7 @@ const index = require('./routes/index');
 const noticias = require('./routes/noticias');
 
 const app = express();
+app.use(cors());
 
 // Connection Mongoose
 const user = 'dbuser';
